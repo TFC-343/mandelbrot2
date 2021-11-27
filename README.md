@@ -4,9 +4,14 @@ main.py shows the Mandelbrot set and lets you zoom in used in white box, to chan
 change the number to the size of the pixel (a larger number would be fewer pixels overall)
 
 line 65 is Mandelbrot equation
-z = z**2 + num -> Z_(n-1)= (Z_n)^2 + C
+<p>
+z = z**2 + num -> Z<sub>n+1</sub>= Z<sub>n</sub><sup>2</sup> + C
+<p>
 you can change this to change the Mandelbrot result for example you can change is to:
-z = z**2 + 1/num  for an inverse Mandelbrot set
+<p>
+>z = z**2 + 1/num
+
+<p>for an inverse Mandelbrot set
 
 julia set.py: I’m almost sure this isn’t called a Julia set but that’s what I’m calling it here,
 it used the same equation but Z_0 is equal to the position and C is a constant, you can change this constant be clicking on the screen
